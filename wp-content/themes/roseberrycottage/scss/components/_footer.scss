@@ -1,0 +1,14 @@
+#footer{
+	text-align:center;
+	padding: 40px 0;
+	p{
+		@include font-size(14px);
+	}
+	h4{
+		text-transform: uppercase;
+		letter-spacing: 6px;
+		@include font-size(14px);
+		font-family: $verlag;
+		margin-bottom: 15px;
+	}
+}

@@ -1,0 +1,64 @@
+#nav{
+	background-color: $blue;
+	@include centered-menu;
+	overflow:visible;
+	border-bottom: 1px solid white;
+	li{
+		padding:0 40px;
+		position:relative;
+		overflow:visible;
+		&:first-child{
+			&:before{
+				content:"";
+				@include abs-pos(0,0,auto,auto);
+				background-color: white;
+				width: 1px;
+				height: 70px;
+				display: block;
+			}
+			&:after{
+				content:"";
+				@include abs-pos(70px,-2px,auto,auto);
+				background-color:white;
+				@include border-radius(50%);
+				width:5px;
+				height: 5px;
+				display: block;
+			}
+		}
+	}
+	a{
+		height:52px;
+		line-height: 52px;
+		text-transform: uppercase;
+		@include font-size(18px);
+		letter-spacing: 2px;
+		font-family: $verlag-bold;
+		text-decoration: none;
+		&:link,&:visited{
+			color: white;
+			@include opacity(.8);
+		}
+		&:hover,&:active{
+			@include opacity(1);
+		}
+	}
+}
+nav.social{
+	@include centered-menu;
+	margin-bottom:60px;
+	li{
+		padding: 0 5px;
+	}
+	a{
+		display: block;
+		width: 50px;
+		height:50px;
+		@include bg-image('../images/twitter');
+		background-size:100% auto;
+		@extend %ir;
+		&.facebook{
+			@include bg-image('../images/facebook');
+		}
+	}
+}

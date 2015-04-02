@@ -1,0 +1,66 @@
+//colours
+$blue: #67aebf;
+$dark-grey: #1d1d1d;
+$grey: #86b7ae;
+$light-grey:#ececec;
+
+//font face
+
+@font-face {
+    font-family: 'Verlag-Bold-webfont';
+    src: url('../fonts/Verlag-Bold-webfont.eot');
+    src: url('../fonts/Verlag-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Verlag-Bold-webfont.woff') format('woff'),
+         url('../fonts/Verlag-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Verlag-Bold-webfont.svg#Verlag-Bold-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Verlag-Bold-webfont';
+        src: url('../fonts/Verlag-Bold-webfont.svg#Verlag-Bold-webfont') format('svg');
+    }
+}
+
+@font-face {
+    font-family: 'Verlag-Book-webfont';
+    src: url('../fonts/Verlag-Book-webfont.eot');
+    src: url('../fonts/Verlag-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Verlag-Book-webfont.woff') format('woff'),
+         url('../fonts/Verlag-Book-webfont.ttf') format('truetype'),
+         url('../fonts/Verlag-Book-webfont.svg#Verlag-Book-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Verlag-Book-webfont';
+        src: url('../fonts/Verlag-Book-webfont.svg#Verlag-Book-webfont') format('svg');
+    }
+}
+
+@font-face {
+    font-family: 'Verlag-Light-webfont';
+    src: url('../fonts/Verlag-Light-webfont.eot');
+    src: url('../fonts/Verlag-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Verlag-Light-webfont.woff') format('woff'),
+         url('../fonts/Verlag-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Verlag-Light-webfont.svg#Verlag-Light-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Verlag-Light-webfont';
+        src: url('../fonts/Verlag-Light-webfont.svg#Verlag-Light-webfont') format('svg');
+    }
+}
+
+
+//fonts
+$verlag : 'Verlag-Book-webfont', sans-serif;
+$verlag-light: 'Verlag-Light-webfont', sans-serif;
+$verlag-bold : 'Verlag-Bold-webfont', sans-serif;
+
+
