@@ -1,17 +1,18 @@
 #header{
 	text-align:center;
 	#home-link{
-		background-color: rgba(0,0,0,.2);
+		background-color: rgba(0,0,0,.3);
 		color: white;
 		display: inline-block;
-		width:410px;
-		height:169px;
-		padding:8px;
+		width:auto;
+		height:auto;
+		padding:4px;
+		margin-bottom: 30px;
 		span{
 			@extend %ir;
 			display: block;
-			width:100%;
-			height:100%;
+			width:240px;
+			height:94px;
 			@include bg-image('../images/roseberry-cottage');
 		}
 		
@@ -24,7 +25,7 @@
 			position: relative;
 			&:before{
 				content:"";
-				padding-top:40%;
+				padding-top:70%;
 				display: block;
 			}
 			.content{
@@ -53,10 +54,84 @@
 		h2{
 			text-transform: uppercase;
 			letter-spacing: 4px;
-			@include font-size(21px);
+			@include font-size(14px);
 			color: white;
 			font-family: $verlag;
+			margin-bottom: 0;
 		}
 	}
+
+}
+
+@media #{$medium-up} { 
+
+	#header{
+		#home-link{
+			margin-bottom: 20px;
+			padding:8px;
+			span{
+				width: 310px;
+				height:121px;
+			}
+		}
+		#image-banner{
+			h2{
+				@include font-size(16px);
+			}
+			.ratio{
+				&:before{
+					padding-top:50%;
+				}
+			}
+		}
+	}
+
+}
+
+@media #{$large-up} { 
+
+	#header{
+		#home-link{
+			margin-bottom: 20px;
+			span{
+				width: 350px;
+				height:137px;
+			}
+		}
+		#image-banner{
+			h2{
+				@include font-size(18px);
+			}
+			.ratio{
+				&:before{
+					padding-top:40%;
+				}
+			}
+		}
+	}
+
+}
+
+
+@media #{$xlarge-up} { 
+
+	#header{
+		#home-link{
+			span{
+				width: 410px;
+				height:160px;
+			}
+		}
+		#image-banner{
+			h2{
+				@include font-size(21px);
+			}
+			.ratio{
+				&:before{
+					//padding-top:30%;
+				}
+			}
+		}
+	}	
 
 }

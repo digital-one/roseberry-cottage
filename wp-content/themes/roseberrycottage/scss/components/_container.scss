@@ -1,5 +1,18 @@
+#wrap{
+	width:100%;
+	overflow:hidden;
+}
 #main{
 	background-color: white;
 	text-align:center;
-	padding: 70px 0 0;
+	padding: 30px 0 0;
+}
+
+
+@media #{$medium-up} { 
+
+	#main{
+		padding: 70px 0 0;
+	}
+
 }

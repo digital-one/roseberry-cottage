@@ -3,7 +3,7 @@
 	<!-- main -->
 	<main id="main">
 		<div class="row">
-<div class="small-12 large-8 large-offset-2 columns end">
+<div class="small-12 medium-10 medium-offset-1 large-8 large-offset-2 columns end">
 <h3 class="rule">An exquisite bed and breakfast retreat in beautiful Yorkshire countryside, close to Harrogate, opening on the Tour de Yorkshire weekend, 1st May 2015.</h3>
 <h4>Indulge yourself in elegant rooms and unwind in enchanting surroundings.</h4>
 <p>Our newly converted barn opens onto a young orchard, planted with plum, greengage and damson trees. Set amongst wild flowers and long grass.  Our rooms have been designed with the beautiful local area in mind, celebrating both colour and texture from the environment, natural wool carpets and hand made throws all echoing the colours of our local heather and moor land.  Our modern bathrooms boast free standing baths and large walk in showers.</p>

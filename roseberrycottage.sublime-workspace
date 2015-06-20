@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"padding-top"
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"verla",
+				"verlag-bold"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"fo",
+				"font-family"
 			],
 			[
 				"ba",
-				"background-image"
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-top"
 			],
 			[
 				"te",
@@ -20,16 +48,8 @@
 				"padding-top"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"pad",
 				"padding-bottom"
-			],
-			[
-				"fo",
-				"font-weight"
 			],
 			[
 				"ma",
@@ -40,20 +60,12 @@
 				"font-family"
 			],
 			[
-				"text",
-				"text-transform"
-			],
-			[
 				"h",
 				"half-spacing"
 			],
 			[
 				"backgr",
 				"background-color"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"margin",
@@ -74,10 +86,6 @@
 			[
 				"bran",
 				"brandongrotesque-regular"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"min",
@@ -110,10 +118,6 @@
 			[
 				"no",
 				"normal"
-			],
-			[
-				"tex",
-				"text-transform"
 			],
 			[
 				"wor",
@@ -510,15 +514,131 @@
 			[
 				"touc",
 				"first_touch"
-			],
-			[
-				"show",
-				"showThreesixty"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "wp-content/themes/roseberrycottage/front-page.php",
+			"settings":
+			{
+				"buffer_size": 2731,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/footer.php",
+			"settings":
+			{
+				"buffer_size": 510,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/style.css",
+			"settings":
+			{
+				"buffer_size": 365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/includes/custom-functions.php",
+			"settings":
+			{
+				"buffer_size": 3043,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/functions.php",
+			"settings":
+			{
+				"buffer_size": 1016,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/components/_container.scss",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/components/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/components/_typography.scss",
+			"settings":
+			{
+				"buffer_size": 917,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/components/_header.scss",
+			"settings":
+			{
+				"buffer_size": 1826,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/components/_navigation.scss",
+			"settings":
+			{
+				"buffer_size": 1678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/_base.scss",
+			"settings":
+			{
+				"buffer_size": 200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/components/_all.scss",
+			"settings":
+			{
+				"buffer_size": 251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/components/_gravity-forms.scss",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/roseberrycottage/scss/components/_forms.scss",
+			"settings":
+			{
+				"buffer_size": 989,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -548,6 +668,13 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/roseberry_cottage/wp-content/themes/roseberrycottage/header.php",
+		"/Applications/MAMP/htdocs/roseberry_cottage/wp-content/themes/roseberrycottage/scss/templates/_home.scss",
+		"/Applications/MAMP/htdocs/roseberry_cottage/roseberry.sql",
+		"/Applications/MAMP/htdocs/roseberry_cottage/wp-content/themes/roseberrycottage/scss/_variables.scss",
+		"/Applications/MAMP/htdocs/roseberry_cottage/wp-content/themes/roseberrycottage/scss/components/_all.scss",
+		"/Applications/MAMP/htdocs/roseberry_cottage/wp-content/themes/roseberrycottage/scss/_base.scss",
+		"/Applications/MAMP/htdocs/roseberry_cottage/wp-config.php",
 		"/Applications/MAMP/htdocs/coyote/master_investor/wp-content/themes/masterinvestor/js/scripts.js",
 		"/Applications/MAMP/htdocs/coyote/master_investor/wp-content/themes/masterinvestor/images/8DE86B53284948C1.png",
 		"/Applications/MAMP/htdocs/coyote/master_investor/wp-content/themes/masterinvestor/images/235_235x470_UK_orange.gif",
@@ -668,14 +795,7 @@
 		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/front-page.php",
 		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/template-about.php",
 		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/sass/templates/_about.scss",
-		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/functions.php",
-		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/sass/components/_global.scss",
-		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/sass/components/_gravity-forms.scss",
-		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/archive-cpt_collection.php",
-		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/css/post-edit.css",
-		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/sass/components/_twitter.scss",
-		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/sass/components/_navigation.scss",
-		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/css/editor-style.css"
+		"/Applications/MAMP/htdocs/giselle/wp-content/themes/giselle/functions.php"
 	],
 	"find":
 	{
@@ -696,6 +816,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"scrollTo",
+			"rule",
 			"author",
 			"count",
 			"flash",
@@ -821,9 +943,7 @@
 			"#mobile-contact-panel",
 			"filters",
 			"240px",
-			".slick-dots",
-			"logo",
-			"#featured-list"
+			".slick-dots"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -969,8 +1089,413 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/roseberrycottage/front-page.php",
+					"settings":
+					{
+						"buffer_size": 2731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/roseberrycottage/footer.php",
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/roseberrycottage/style.css",
+					"settings":
+					{
+						"buffer_size": 365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/roseberrycottage/includes/custom-functions.php",
+					"settings":
+					{
+						"buffer_size": 3043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "wp-content/themes/roseberrycottage/functions.php",
+					"settings":
+					{
+						"buffer_size": 1016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1012,
+								1012
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/roseberrycottage/scss/components/_container.scss",
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wp-content/themes/roseberrycottage/scss/components/_footer.scss",
+					"settings":
+					{
+						"buffer_size": 218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "wp-content/themes/roseberrycottage/scss/components/_typography.scss",
+					"settings":
+					{
+						"buffer_size": 917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "wp-content/themes/roseberrycottage/scss/components/_header.scss",
+					"settings":
+					{
+						"buffer_size": 1826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1156,
+								1156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 117.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "wp-content/themes/roseberrycottage/scss/components/_navigation.scss",
+					"settings":
+					{
+						"buffer_size": 1678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1226,
+								1226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 104.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "wp-content/themes/roseberrycottage/scss/_base.scss",
+					"settings":
+					{
+						"buffer_size": 200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "wp-content/themes/roseberrycottage/scss/components/_all.scss",
+					"settings":
+					{
+						"buffer_size": 251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								148
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "wp-content/themes/roseberrycottage/scss/components/_gravity-forms.scss",
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "wp-content/themes/roseberrycottage/js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								725,
+								725
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "wp-content/themes/roseberrycottage/scss/components/_forms.scss",
+					"settings":
+					{
+						"buffer_size": 989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

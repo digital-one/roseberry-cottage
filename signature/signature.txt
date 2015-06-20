@@ -1,0 +1,7 @@
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td align="left" valign="top" style="padding-top:20px; padding-bottom:20px;"><a href="http://www.roseberrycottage.co.uk" target="_blank"><img src="http://www.roseberrycottage.co.uk/email/roseberry-cottage-signature-logo.jpg" width="150" height="58" alt="Roseberry Cottage" style="display:block; border:none;" /></a></td></tr>
+<tr><td align="left" valign="top" style="padding-bottom:5px;"><span style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:14px; color:#595959;">Roseberry Cottage Bed &amp; Breakfast<br />Bishop Thornton, Harrogate<br />North Yorkshire, HG3 3J</span></td></tr>
+<tr>
+  <td align="left" valign="top"><span style="font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:14px; color:#595959;">Telephone: <a href="tel:01423705257" style="color:#595959; text-decoration:underline;">01423 705 257</a><br />
+    <a href="http://www.roseberrycottage.co.uk" target="_blank" style="color:#595959; text-decoration:underline;">www.roseberrycottage.co.uk</a></span></td></tr>
+</table>

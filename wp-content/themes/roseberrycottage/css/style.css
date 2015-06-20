@@ -2938,6 +2938,7 @@ body {
   color: #1d1d1d;
   font-family: "Verlag-Light-webfont", sans-serif;
   font-weight: normal;
+  overflow-x: hidden;
 }
 
 /* line 1, ../scss/components/_header.scss */
@@ -2946,18 +2947,19 @@ body {
 }
 /* line 3, ../scss/components/_header.scss */
 #header #home-link {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   display: inline-block;
-  width: 410px;
-  height: 169px;
-  padding: 8px;
+  width: auto;
+  height: auto;
+  padding: 4px;
+  margin-bottom: 30px;
 }
-/* line 10, ../scss/components/_header.scss */
+/* line 11, ../scss/components/_header.scss */
 #header #home-link span {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 240px;
+  height: 94px;
   background-image: url("../images/roseberry-cottage.png");
   background-position: left top;
   background-repeat: no-repeat;
@@ -2967,7 +2969,7 @@ body {
 .svg #header #home-link span {
   background-image: url("../images/roseberry-cottage.svg");
 }
-/* line 19, ../scss/components/_header.scss */
+/* line 20, ../scss/components/_header.scss */
 #header #image-banner {
   background-position: top center;
   background-repeat: no-repeat;
@@ -2976,19 +2978,19 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-/* line 21, ../scss/components/_header.scss */
+/* line 22, ../scss/components/_header.scss */
 #header #image-banner .ratio {
   display: block;
   width: 100%;
   position: relative;
 }
-/* line 25, ../scss/components/_header.scss */
+/* line 26, ../scss/components/_header.scss */
 #header #image-banner .ratio:before {
   content: "";
-  padding-top: 40%;
+  padding-top: 70%;
   display: block;
 }
-/* line 30, ../scss/components/_header.scss */
+/* line 31, ../scss/components/_header.scss */
 #header #image-banner .ratio .content {
   top: 0;
   right: 0;
@@ -2997,37 +2999,91 @@ body {
   position: absolute;
   height: 100%;
 }
-/* line 34, ../scss/components/_header.scss */
+/* line 35, ../scss/components/_header.scss */
 #header #image-banner .ratio .vcenter-content {
   display: block;
   width: 100%;
   height: 100%;
   text-align: center;
 }
-/* line 39, ../scss/components/_header.scss */
+/* line 40, ../scss/components/_header.scss */
 #header #image-banner .ratio .vcenter-content:before {
   content: "";
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-/* line 45, ../scss/components/_header.scss */
+/* line 46, ../scss/components/_header.scss */
 #header #image-banner .ratio .vcenter-content .centered {
   display: inline-block;
   vertical-align: middle;
   width: 98%;
   margin: 0 auto;
 }
-/* line 53, ../scss/components/_header.scss */
+/* line 54, ../scss/components/_header.scss */
 #header #image-banner h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
-  font-size: 21px;
-  font-size: 1.3125rem;
+  font-size: 14px;
+  font-size: 0.875rem;
   color: white;
   font-family: "Verlag-Book-webfont", sans-serif;
+  margin-bottom: 0;
 }
 
+@media only screen and (min-width: 48rem) {
+  /* line 69, ../scss/components/_header.scss */
+  #header #home-link {
+    margin-bottom: 20px;
+    padding: 8px;
+  }
+  /* line 72, ../scss/components/_header.scss */
+  #header #home-link span {
+    width: 310px;
+    height: 121px;
+  }
+  /* line 78, ../scss/components/_header.scss */
+  #header #image-banner h2 {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  /* line 82, ../scss/components/_header.scss */
+  #header #image-banner .ratio:before {
+    padding-top: 50%;
+  }
+}
+@media only screen and (min-width: 64rem) {
+  /* line 94, ../scss/components/_header.scss */
+  #header #home-link {
+    margin-bottom: 20px;
+  }
+  /* line 96, ../scss/components/_header.scss */
+  #header #home-link span {
+    width: 350px;
+    height: 137px;
+  }
+  /* line 102, ../scss/components/_header.scss */
+  #header #image-banner h2 {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+  /* line 106, ../scss/components/_header.scss */
+  #header #image-banner .ratio:before {
+    padding-top: 40%;
+  }
+}
+@media only screen and (min-width: 81.25rem) {
+  /* line 120, ../scss/components/_header.scss */
+  #header #home-link span {
+    width: 410px;
+    height: 160px;
+  }
+  /* line 126, ../scss/components/_header.scss */
+  #header #image-banner h2 {
+    font-size: 21px;
+    font-size: 1.3125rem;
+  }
+}
 /* line 1, ../scss/components/_footer.scss */
 #footer {
   text-align: center;
@@ -3051,76 +3107,28 @@ body {
 /* line 1, ../scss/components/_navigation.scss */
 #nav {
   background-color: #67aebf;
-  width: 100%;
-  overflow: hidden;
   overflow: visible;
-  border-bottom: 1px solid white;
+  z-index: 999;
 }
-/* line 5, ../scss/helpers/mixins/_centered-menu.scss */
-#nav ul {
-  clear: left;
-  float: left;
-  position: relative;
-  left: 50%;
-  text-align: center;
-}
-/* line 11, ../scss/helpers/mixins/_centered-menu.scss */
-#nav ul li {
-  display: block;
-  float: left;
-  position: relative;
-  right: 50%;
-}
-/* line 6, ../scss/components/_navigation.scss */
+/* line 7, ../scss/components/_navigation.scss */
 #nav li {
   padding: 0 40px;
   position: relative;
   overflow: visible;
+  border-bottom: 1px solid white;
 }
-/* line 11, ../scss/components/_navigation.scss */
-#nav li:first-child:before {
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: auto;
-  left: auto;
-  position: absolute;
-  background-color: white;
-  width: 1px;
-  height: 70px;
-  display: block;
-}
-/* line 19, ../scss/components/_navigation.scss */
-#nav li:first-child:after {
-  content: "";
-  top: 70px;
-  right: -2px;
-  bottom: auto;
-  left: auto;
-  position: absolute;
-  background-color: white;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  width: 5px;
-  height: 5px;
-  display: block;
-}
-/* line 30, ../scss/components/_navigation.scss */
+/* line 14, ../scss/components/_navigation.scss */
 #nav a {
-  height: 52px;
-  line-height: 52px;
+  height: 48px;
+  line-height: 48px;
   text-transform: uppercase;
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 14px;
+  font-size: 0.875rem;
   letter-spacing: 2px;
   font-family: "Verlag-Bold-webfont", sans-serif;
   text-decoration: none;
 }
-/* line 38, ../scss/components/_navigation.scss */
+/* line 22, ../scss/components/_navigation.scss */
 #nav a:link, #nav a:visited {
   color: white;
   opacity: 0.8;
@@ -3128,7 +3136,7 @@ body {
   -khtml-opacity: 0.8;
   filter: alpha(opacity=80);
 }
-/* line 42, ../scss/components/_navigation.scss */
+/* line 26, ../scss/components/_navigation.scss */
 #nav a:hover, #nav a:active {
   opacity: 1;
   -moz-opacity: 1;
@@ -3136,7 +3144,7 @@ body {
   filter: alpha(opacity=100);
 }
 
-/* line 47, ../scss/components/_navigation.scss */
+/* line 31, ../scss/components/_navigation.scss */
 nav.social {
   width: 100%;
   overflow: hidden;
@@ -3157,15 +3165,15 @@ nav.social ul li {
   position: relative;
   right: 50%;
 }
-/* line 50, ../scss/components/_navigation.scss */
+/* line 34, ../scss/components/_navigation.scss */
 nav.social li {
   padding: 0 5px;
 }
-/* line 53, ../scss/components/_navigation.scss */
+/* line 37, ../scss/components/_navigation.scss */
 nav.social a {
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 32px;
+  height: 32px;
   background-image: url("../images/twitter.png");
   background-position: left top;
   background-repeat: no-repeat;
@@ -3176,7 +3184,7 @@ nav.social a {
 .svg nav.social a {
   background-image: url("../images/twitter.svg");
 }
-/* line 60, ../scss/components/_navigation.scss */
+/* line 44, ../scss/components/_navigation.scss */
 nav.social a.facebook {
   background-image: url("../images/facebook.png");
   background-position: left top;
@@ -3188,20 +3196,108 @@ nav.social a.facebook {
   background-image: url("../images/facebook.svg");
 }
 
+@media only screen and (min-width: 48rem) {
+  /* line 53, ../scss/components/_navigation.scss */
+  #nav {
+    border-bottom: 1px solid white;
+  }
+  /* line 55, ../scss/components/_navigation.scss */
+  #nav li {
+    width: 50%;
+    text-align: left;
+    float: left;
+    padding: 0 40px;
+    position: relative;
+    overflow: visible;
+    border-bottom: 0;
+  }
+  /* line 63, ../scss/components/_navigation.scss */
+  #nav li:first-child {
+    text-align: right;
+  }
+  /* line 65, ../scss/components/_navigation.scss */
+  #nav li:first-child:before {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    background-color: white;
+    width: 1px;
+    height: 70px;
+    display: block;
+  }
+  /* line 73, ../scss/components/_navigation.scss */
+  #nav li:first-child:after {
+    content: "";
+    top: 70px;
+    right: -2px;
+    bottom: auto;
+    left: auto;
+    position: absolute;
+    background-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 5px;
+    height: 5px;
+    display: block;
+  }
+  /* line 84, ../scss/components/_navigation.scss */
+  #nav a {
+    font-size: 16px;
+    font-size: 1rem;
+  }
+
+  /* line 90, ../scss/components/_navigation.scss */
+  nav.social a {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media only screen and (min-width: 81.25rem) {
+  /* line 101, ../scss/components/_navigation.scss */
+  #nav a {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+
+  /* line 107, ../scss/components/_navigation.scss */
+  nav.social a {
+    width: 48px;
+    height: 48px;
+  }
+}
 /* line 1, ../scss/components/_container.scss */
+#wrap {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 5, ../scss/components/_container.scss */
 #main {
   background-color: white;
   text-align: center;
-  padding: 70px 0 0;
+  padding: 30px 0 0;
 }
 
+@media only screen and (min-width: 48rem) {
+  /* line 14, ../scss/components/_container.scss */
+  #main {
+    padding: 70px 0 0;
+  }
+}
 /* line 1, ../scss/components/_typography.scss */
 h1, h2, h3, h4 {
   font-weight: normal;
-  font-size: 36px;
-  font-size: 2.25rem;
+  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 130%;
-  margin: 0 0 50px;
+  margin: 0 0 30px;
   font-family: "Verlag-Light-webfont", sans-serif;
 }
 
@@ -3212,15 +3308,15 @@ h4 {
 
 /* line 11, ../scss/components/_typography.scss */
 h4 {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 16px;
+  font-size: 1rem;
   font-family: "Verlag-Book-webfont", sans-serif;
 }
 
 /* line 15, ../scss/components/_typography.scss */
 p {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   margin-bottom: 40px;
 }
@@ -3243,7 +3339,7 @@ a:hover, a:active {
 
 /* line 30, ../scss/components/_typography.scss */
 .rule {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   position: relative;
 }
 /* line 33, ../scss/components/_typography.scss */
@@ -3261,6 +3357,151 @@ a:hover, a:active {
   margin-left: -90px;
 }
 
+@media only screen and (min-width: 48rem) {
+  /* line 46, ../scss/components/_typography.scss */
+  h1, h2, h3, h4 {
+    font-size: 30px;
+    font-size: 1.875rem;
+    margin: 0 0 50px;
+  }
+
+  /* line 50, ../scss/components/_typography.scss */
+  h4, p {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+
+  /* line 53, ../scss/components/_typography.scss */
+  .rule {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 81.25rem) {
+  /* line 60, ../scss/components/_typography.scss */
+  h1, h2, h3, h4 {
+    font-size: 36px;
+    font-size: 2.25rem;
+  }
+
+  /* line 63, ../scss/components/_typography.scss */
+  h4, p {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+}
+/* line 1, ../scss/components/_forms.scss */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+select,
+textarea,
+.selectBox-dropdown {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.75);
+  display: block;
+  font-family: inherit;
+  font-size: 12px;
+  font-size: 0.75rem;
+  height: 30px;
+  margin: 0 0 10px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.1s linear 0s;
+  -moz-transition: background-color 0.1s linear 0s;
+  transition: background-color 0.1s linear 0s;
+}
+/* line 29, ../scss/components/_forms.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+select:focus,
+textarea:focus,
+.selectBox-dropdown:focus {
+  background-color: white;
+  outline: none;
+}
+/* line 4, ../scss/bourbon/css3/_placeholder.scss */
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="search"]::-webkit-input-placeholder,
+select::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+.selectBox-dropdown::-webkit-input-placeholder {
+  color: #86b7ae;
+}
+/* line 4, ../scss/bourbon/css3/_placeholder.scss */
+input[type="text"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input[type="search"]::-moz-placeholder,
+select::-moz-placeholder,
+textarea::-moz-placeholder,
+.selectBox-dropdown::-moz-placeholder {
+  color: #86b7ae;
+}
+/* line 4, ../scss/bourbon/css3/_placeholder.scss */
+input[type="text"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="tel"]:-moz-placeholder,
+input[type="number"]:-moz-placeholder,
+input[type="search"]:-moz-placeholder,
+select:-moz-placeholder,
+textarea:-moz-placeholder,
+.selectBox-dropdown:-moz-placeholder {
+  color: #86b7ae;
+}
+/* line 4, ../scss/bourbon/css3/_placeholder.scss */
+input[type="text"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="search"]:-ms-input-placeholder,
+select:-ms-input-placeholder,
+textarea:-ms-input-placeholder,
+.selectBox-dropdown:-ms-input-placeholder {
+  color: #86b7ae;
+}
+
+/* line 37, ../scss/components/_forms.scss */
+textarea {
+  padding: 10px;
+  height: auto;
+  resize: none;
+}
+
+/* line 42, ../scss/components/_forms.scss */
+button {
+  background-color: #86b7ae;
+  border: none;
+  color: white;
+  height: 30px;
+  line-height: 1;
+  text-align: center;
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
 /* line 5, ../scss/components/_gravity-forms.scss */
 .gform_body ul {
   margin: 0;
@@ -3275,68 +3516,78 @@ a:hover, a:active {
   width: 40%;
 }
 
+/* line 18, ../scss/components/_gravity-forms.scss */
+.validation_error, .validation_message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* line 22, ../scss/components/_gravity-forms.scss */
+.validation_message {
+  margin-bottom: 0;
+}
+
 /* line 1, ../scss/templates/_home.scss */
 #booking {
   display: block;
   width: 100%;
   border: 1px solid #86b7ae;
-  padding: 8px;
+  padding: 4px;
   margin-bottom: 60px;
 }
 /* line 7, ../scss/templates/_home.scss */
 #booking .content {
   border: 1px solid #86b7ae;
-  padding: 8px;
   display: block;
   width: 100%;
-  padding: 40px 60px 30px;
+  padding: 20px;
 }
-/* line 14, ../scss/templates/_home.scss */
+/* line 13, ../scss/templates/_home.scss */
 #booking h4 {
   font-family: "Verlag-Light-webfont", sans-serif;
   font-weight: normal;
-  font-size: 36px;
-  font-size: 2.25rem;
-  margin-bottom: 50px;
+  font-size: 22px;
+  font-size: 1.375rem;
+  margin-bottom: 30px;
 }
-/* line 18, ../scss/templates/_home.scss */
+/* line 17, ../scss/templates/_home.scss */
 #booking h4 strong {
   font-family: "Verlag-Book-webfont", sans-serif;
 }
-/* line 23, ../scss/templates/_home.scss */
+/* line 22, ../scss/templates/_home.scss */
 #booking dl {
   margin: 0;
 }
-/* line 25, ../scss/templates/_home.scss */
+/* line 24, ../scss/templates/_home.scss */
 #booking dl dt {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 100%;
   margin-bottom: 10px;
   color: #86b7ae;
   font-family: "Verlag-Bold-webfont", sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
-/* line 34, ../scss/templates/_home.scss */
+/* line 33, ../scss/templates/_home.scss */
 #booking dl dd {
   margin: 0 0 20px;
   display: block;
 }
-/* line 37, ../scss/templates/_home.scss */
+/* line 36, ../scss/templates/_home.scss */
 #booking dl dd a {
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 18px;
+  font-size: 1.125rem;
   display: block;
   line-height: 100%;
 }
-/* line 41, ../scss/templates/_home.scss */
+/* line 40, ../scss/templates/_home.scss */
 #booking dl dd a.tel {
-  font-size: 36px;
-  font-size: 2.25rem;
+  font-size: 32px;
+  font-size: 2rem;
 }
 
-/* line 48, ../scss/templates/_home.scss */
+/* line 47, ../scss/templates/_home.scss */
 .image {
   margin-bottom: 1.875em;
   display: block;
@@ -3344,14 +3595,14 @@ a:hover, a:active {
   overflow: hidden;
   position: relative;
 }
-/* line 54, ../scss/templates/_home.scss */
+/* line 53, ../scss/templates/_home.scss */
 .image:before {
   content: "";
   padding-top: 60%;
   display: block;
   position: relative;
 }
-/* line 60, ../scss/templates/_home.scss */
+/* line 59, ../scss/templates/_home.scss */
 .image img {
   top: 0;
   right: auto;
@@ -3363,42 +3614,49 @@ a:hover, a:active {
   display: block;
 }
 
-/* line 67, ../scss/templates/_home.scss */
+/* line 66, ../scss/templates/_home.scss */
 #gallery {
   margin-bottom: 40px;
 }
 
-/* line 70, ../scss/templates/_home.scss */
+/* line 69, ../scss/templates/_home.scss */
 #subscribe {
   background-color: #ececec;
-  padding: 40px 60px;
+  padding: 20px;
   margin-bottom: 60px;
 }
-/* line 74, ../scss/templates/_home.scss */
+/* line 73, ../scss/templates/_home.scss */
 #subscribe li {
-  width: 50%;
-  float: left;
-  padding: 0 10px;
+  width: 100%;
 }
-/* line 80, ../scss/templates/_home.scss */
+/* line 77, ../scss/templates/_home.scss */
 #subscribe input:focus {
   outline: none;
 }
-/* line 84, ../scss/templates/_home.scss */
+/* line 80, ../scss/templates/_home.scss */
+#subscribe input.medium {
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+/* line 88, ../scss/templates/_home.scss */
 #subscribe h4 {
   font-size: 24px;
   font-size: 1.5rem;
-  padding: 0 20%;
+  padding: 0;
 }
-/* line 91, ../scss/templates/_home.scss */
+/* line 95, ../scss/templates/_home.scss */
 #subscribe .gform_footer {
   padding-top: 20px;
 }
-/* line 94, ../scss/templates/_home.scss */
+/* line 98, ../scss/templates/_home.scss */
 #subscribe .gfield_label {
   display: none;
 }
-/* line 97, ../scss/templates/_home.scss */
+/* line 101, ../scss/templates/_home.scss */
 #subscribe .gform_button {
   border: none;
   background-color: #67aebf;
@@ -3414,13 +3672,88 @@ a:hover, a:active {
   -moz-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
 }
-/* line 108, ../scss/templates/_home.scss */
+/* line 112, ../scss/templates/_home.scss */
 #subscribe .gform_button:hover, #subscribe .gform_button:active {
   background-color: #1d1d1d;
 }
-/* line 112, ../scss/templates/_home.scss */
-#subscribe input.medium {
-  width: 100%;
-  height: 50px;
-  padding: 0 20px;
+
+@media only screen and (min-width: 48rem) {
+  /* line 121, ../scss/templates/_home.scss */
+  #booking {
+    padding: 4px;
+  }
+  /* line 123, ../scss/templates/_home.scss */
+  #booking h4 {
+    font-size: 30px;
+    font-size: 1.875rem;
+    margin-bottom: 50px;
+  }
+  /* line 127, ../scss/templates/_home.scss */
+  #booking .content {
+    padding: 40px 60px 30px;
+  }
+  /* line 130, ../scss/templates/_home.scss */
+  #booking dl {
+    margin: 0;
+  }
+  /* line 132, ../scss/templates/_home.scss */
+  #booking dl dt {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+  /* line 135, ../scss/templates/_home.scss */
+  #booking dl dd {
+    margin: 0 0 20px;
+    display: block;
+  }
+  /* line 138, ../scss/templates/_home.scss */
+  #booking dl dd a {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+  /* line 140, ../scss/templates/_home.scss */
+  #booking dl dd a.tel {
+    font-size: 36px;
+    font-size: 2.25rem;
+  }
+
+  /* line 147, ../scss/templates/_home.scss */
+  #subscribe {
+    padding: 40px 20px;
+  }
+  /* line 149, ../scss/templates/_home.scss */
+  #subscribe h4 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    padding: 0 10%;
+  }
+  /* line 153, ../scss/templates/_home.scss */
+  #subscribe li {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+  }
+  /* line 159, ../scss/templates/_home.scss */
+  #subscribe input.medium {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+@media only screen and (min-width: 81.25rem) {
+  /* line 171, ../scss/templates/_home.scss */
+  #booking h4 {
+    font-size: 36px;
+    font-size: 2.25rem;
+  }
+
+  /* line 175, ../scss/templates/_home.scss */
+  #subscribe {
+    padding: 40px 60px;
+  }
+  /* line 177, ../scss/templates/_home.scss */
+  #subscribe h4 {
+    font-size: 24px;
+    font-size: 1.5rem;
+    padding: 0 20%;
+  }
 }

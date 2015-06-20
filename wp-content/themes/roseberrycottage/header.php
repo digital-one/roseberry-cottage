@@ -28,7 +28,7 @@
 	<div id="wrap">
 <header id="header">
 	<!--nav-->
-<nav id="nav"><div class="row"><div class="small-12 columns"><ul><li><a href="" title="Make a reservation">Make a reservation</a></li><li><a href="" title="Join our mailing list">Join our mailing list</a></li></ul></div></div></nav>
+<nav id="nav"><div class="row small-collapse"><div class="small-12 columns"><ul><li><a href="#booking" title="Make a reservation">Make a reservation</a></li><li><a href="#subscribe" title="Join our mailing list">Join our mailing list</a></li></ul></div></div></nav>
 <!--/nav-->
 <section id="image-banner" style="background-image:url('<?php echo get_template_directory_uri(); ?>/images/roseberry-cottage-external.jpg');">
 <div class="row"><div class="small-12-columns">

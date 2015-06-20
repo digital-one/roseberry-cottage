@@ -15,3 +15,10 @@
 		width: 40%;
 	}
 }
+.validation_error,.validation_message{
+	color: red;
+	margin-bottom: 10px;
+}
+.validation_message{
+	margin-bottom:0;
+}

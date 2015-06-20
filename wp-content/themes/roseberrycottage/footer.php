@@ -10,6 +10,7 @@ Telephone: <a href="tel:01423771421">01423 771 421</a>  |  Email: <a href="mailt
     </div>
 </div>
     </footer>
+</div>
 <!-- /footer -->
 <?php wp_footer() ?>
 </body>
